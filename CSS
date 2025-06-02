@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+
+}
+
+.topo {
+  background-color: #1a1d21;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.luxo {
+    color: #1bb4e8;
+    margin: 0%;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 10px;
+}
+.aluguel-iates {
+    margin: 0%;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo div {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav ul li a.ativo {
+  color: #00bfff;
+}
+
+.imagem-destaque {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.texto-destaque {
+  position: absolute;
+  right: 80px;
+  bottom: 50px;
+  background-color: rgba(0, 32, 64, 0.75);
+  color: white;
+  padding: 69px;
+  max-width: 644px;
+  width: 644px;
+  height: 300px;
+  font-size: 29px;
+  font-style: italic;
+  
+  
+}
+
+.texto-telefone {
+  margin-top: 40px;
+  font-style: italic;
+  font-size: 20px;
+  display: flex;
+  align-items:center;
+  gap: 15px;
+  position: relative;
+  
+}
+
+
+main {
+  padding: 40px 30px;
+}
+
+.secao {
+  margin-bottom: 60px;
+}
+.secao-destino {
+ position: relative;
+ 
+}
+
+.container {
+ display: flex;
+ justify-content:space-between;
+ align-items: flex-start;
+ margin: 10px;
+
+ }
+ .numero-telefone {
+  text-align:left;
+
+ }
+ 
+
+ 
+ 
+ 
+ 
+
+
+
+.titulo-secao {
+    align-items: center;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: sans-serif;
+  max-width: 700px;
+  height: 60px;
+
+}
+.h3 {
+  font-style: italic;
+}
+
+.titulo-secao img {
+  display: flex;
+
+}
+
+.titulo-secao .destino-h2 {
+  font-size: 20px;
+  color: #fff;
+  background-color: #00bfff;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+
+  
+}
+.secao-frota{
+  position: absolute;
+  margin-left:50%;
+  margin-bottom: 10%;
+  width: 644px;
+
+  
+
+
+  
+
+}
+.titulo-secao.dourado .frota-h2 {
+  background-color: #d4b27c;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+
+}
+
+.secao p {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.imagem-principal {
+  width: 100%;
+  max-width: 710px;
+  margin-top: 19px;
+
+}
+
+.galeria {
+
+  gap: 10px;
+  margin-top: 15px;
+  max-width: 700px;
+  display: grid;
+  position: relative;
+  
+}
+
+.galeria img {
+  width: 50%;
+  height: auto;
+  display: grid;
+  position: relative;
+}
+.iate1 {
+  position: relative;
+  margin-top: 5px;
+  align-items: center;
+}
+.iate2{
+  position: absolute;
+    align-items: center;
+    bottom: 177px;
+    margin-left: 325px; 
+}
+
+.iate3 {
+  position: absolute;
+  margin-left:325px;
+  bottom: 180px;
+
+}
+.iate4 {
+  bottom: 357px;
+
+}
+footer {
+  background-color: #f0f0f0;
+  padding: 15px;
+  text-align: left;
+  font-size: 12px;
+  color: #666;
+}
